@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log In or Sign Up</title>
+    <link rel="stylesheet" href="./facebook.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>facebook</h1>
+            <div class="login-form">
+                <input type="text" placeholder="Email or phone">
+                <input type="password" placeholder="Password">
+                <button>Log In</button>
+                <a href="#">Forgotten account?</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="info">
+                <h2>Facebook helps you connect and share with the people in your life.</h2>
+                <div class="map">
+                    <img src="./images/fdimg.jpg" alt="Map with people icons" />
+                </div>
+            </div>
+            <div class="signup">
+                <h2>Create an account</h2>
+                <p>It's quick and easy.</p>
+                <form>
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Surname" required>
+                    <input type="text" placeholder="Mobile number or email address" required>
+                    <input type="password" placeholder="New password" required>
+
+                    <label>Birthday</label>
+                    <div class="birthday">
+                        <select>
+                            <option>Day</option>
+                        </select>
+                        <select>
+                            <option>Month</option>
+                        </select>
+                        <select>
+                            <option>Year</option>
+                        </select>
+                    </div>
+
+                    <label>Gender</label>
+                    <div class="gender">
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="custom"> Custom
+                    </div>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
